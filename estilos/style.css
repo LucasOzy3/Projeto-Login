@@ -160,5 +160,9 @@ form > div > a:hover  {
     background-color: #49a09d;
   
 }
+form > div > span {
+    width: 100%;
+    text-align: center;
+}
 
 
