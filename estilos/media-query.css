@@ -115,7 +115,7 @@ form > div> a.botao:hover {
     height: 50px;
     text-decoration: underline;
     display: block;
-    width: 63.5%;
+    width: 98%;
     float: right;
     text-align: center;
     margin-top: 10px;
@@ -156,29 +156,153 @@ form > div > a:hover  {
 
 @media screen and (min-width: 1200px) {
 
-    section#login {
-        width: 1500px;
-        height: 700px;
+        body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    section#login > div#imagem {
-        float: left;
-        width: 50%;
-        height: 100%;
+        section#login {
+                    width: 1500px;
+                    height: 700px;
+                }
+            section#login> div#imagem {
+                float: left;
+                width: 35%;
+                height: 100%;
+            }
+            section#login > div#formulário {
+                    float: right;
+                    width: 50%;
+                    height: 100%;
+            }
+            form > div > input[type=submit] {
+                display: block;
+                width: 65%;
+                height: 50px;
+                font-size: 1.5em;
+
     }
-    section#login > div#formulário {
-        float: right;
-        width: 50%;
-        height: 100%;
-    }
-        div#formulario > h1 {
-        font-size: 2em;
-    }
-    div#formulario > p {
-    font-size: 1.2em;
-}
+            div#formulario > h1 {
+                font-size: 2em;
+            }
+            div#formulario > p {
+                    font-size: 1.2em;
+                }
 
     
+        form > div> a.botao:hover {
+
+            color: #3a7f7c;
+            background-color: #86a7a5;
+            height: 50px;
+            text-decoration: underline;
+            display: block;
+            width: 98%;
+            float: right;
+            text-align: center;
+            margin-top: 10px;
+            padding: 5px;
+            border-radius: 15px 0 35px 0;
+        
+            
+        }
+
+        form > div > a  {
+        
+            display: block;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            color: #49a09d;
+            text-decoration: none;
+            padding: 5px;
+            background-color: #f0f0f0;
+           
+        
+        }
+
+
+        form > div > a:hover  {
+            display: block;
+            height: 50px;
+            width: 50%;
+            text-align: center;
+            margin-top: 10px;
+            color: #49a09d;
+            text-decoration: none;
+            padding: 5px;
+            background-color: #49a09d;
+        
+        }
+
+        
 }
+
+/*
+body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login {
+        width: 80vw;
+    }
+    section#login> div#imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+    section#login> div#formulário {
+       float: right;
+        width: 20%;
+        height: 100%;
+    }
+    form > div > input[type=submit] {
+    display: block;
+    width: 65%;
+    height: 50px;
+    font-size: 1.5em;
+}
+form > div> a.botao:hover {
+
+    color: #3a7f7c;
+    background-color: #86a7a5;
+    height: 50px;
+    text-decoration: underline;
+    display: block;
+    width: 63.5%;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px 0 35px 0;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+form > div > a  {
+    display: block;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: #49a09d;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #f0f0f0;
+  
+}
+
+form > div > a:hover  {
+    display: block;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    color: #49a09d;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #49a09d;
+  
+}*/
+
 
 
     
