@@ -165,7 +165,7 @@ form > div > a:hover  {
 form > div > span {
     width: 100%;
     text-align: center;
-    font
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
