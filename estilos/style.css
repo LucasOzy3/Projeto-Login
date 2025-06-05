@@ -159,6 +159,7 @@ form > div > a:hover  {
     text-decoration: none;
     padding: 5px;
     background-color: #49a09d;
+    font: 1em sans-serif;
   
 }
 form > div > span {
